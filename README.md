@@ -5,6 +5,10 @@
 - [1. Motivation](#1-motivation)
 - [2. Process](#2-process)
   - [2.1. Redesign](#21-redesign)
+- [Base architecture](#base-architecture)
+  - [Folders](#folders)
+  - [CSS Architecture](#css-architecture)
+- [Case study: the dropdown feature](#case-study-the-dropdown-feature)
 
 # 1. Motivation
 
@@ -20,5 +24,34 @@ I noticed a number of accessibility issues on the website:
 
 1. A bunch of unsufficient contrasts, for example the buttons:
    ![Buttons](https://i.postimg.cc/8z3PhXR8/Screenshot-2022-11-11-at-08-16-35.png)
-2. Some weirdly aligned elements like on the mobile header:
+2. Some weirdly aligned elements like on the mobile header, and elements not filling the space satisfyingly. Menu icon should be bigger for accessibility (Here it is 20px wide, should be 48+).
    ![Header](https://i.postimg.cc/GpcT55B4/Screenshot-2022-11-11-at-08-12-32.png)
+3. In terms of user experience, i found that it was hard to have a good overview of all the digital solutions offered by the company. I tried myself for a possible solution where all the solutions are in dropdown menus that users can open and close (which was also a good feature to try to implement in Angular).
+
+# Base architecture
+
+## Folders
+
+I set myself for a structure that is a mix of what I am used to in React, and what seem to be the philosophy in Angular:
+
+1. A Components module with all the base components for the UI: headers, hero text, base dropdown menu
+2. A Shared module with features that can be used by several components: The dropdown shared component could be used by the dropdown menu, and the mobile header menu system.
+3. A pages module, with landing page / contact / jobs, etc..
+4. A service folder for Angular services
+5. An asset folder with subfolders for fonts, graphics (icons and logos), images (illustrations and pictures)
+
+## CSS Architecture
+
+1. A global style + CSS resets file: styles.scss
+2. A global font file: fonts.scss
+3. A global variables file: variables.scss
+4. Rest of the styles are made by components, which are scoped in Angular
+
+# Case study: the dropdown feature
+
+Used by both the menu icon of the header and the dropdown elements that present the digital solution.
+It is a great feature to work on, as it includes many tricky aspects: dealing with several components, services / state, conditional rendering and styling.
+
+1. We need to store somewhere whether a dropdown is open or not. Could be a thing if we want to persist it (I don't know yet how that works in Angular), or to include it in the adress bar with Routing (so that a person could send this link to a collaborator).
+2. Multiple dropdowns can be opened at the same time.
+3. The dropdown behaviour of the menu icon has an added specific behaviour: clicking / tapping outside of the dropdown can close it
