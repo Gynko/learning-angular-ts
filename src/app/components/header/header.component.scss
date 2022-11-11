@@ -1,0 +1,52 @@
+@import "../../../variables.scss";
+@import "../../../fonts.scss";
+
+.header-nav-ul {
+  width: 100vw;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.logo-adstate {
+  width: 3rem;
+}
+
+.logo-container {
+  display: flex;
+  flex-flow: row nowrap;
+  margin: 0.3rem 0 0.3rem 0.5rem;
+}
+
+.logo-texts-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.4rem;
+}
+
+.logo-text {
+  font-size: 1.76rem;
+  line-height: 2rem;
+  font-family: "Karma", serif;
+  color: $text-color-main;
+}
+
+.logo-undertext {
+  font-size: 1rem;
+  line-height: 0.5rem;
+  font-family: "Roboto", serif;
+}
+
+.text-legatech {
+  color: $text-color-secondary;
+  font-weight: bold;
+}
+
+.menu-icon {
+  width: 2rem;
+}
+
+.last-item {
+  margin-left: auto;
+  margin-right: 0.6rem;
+}

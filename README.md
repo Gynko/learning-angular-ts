@@ -1,27 +1,25 @@
-# Adstate
+# Adstate Website in Angular <!-- omit in toc -->
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.8.
+# Table of content <!-- omit in toc -->
 
-## Development server
+- [1. Motivation](#1-motivation)
+- [2. Process](#2-process)
+  - [2.1. Redesign](#21-redesign)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# 1. Motivation
 
-## Code scaffolding
+1. Learning Angular and Typescript
+2. Being prepared for an eventual Yes from Adstate
+3. Showing another proof of motivation and proactivity to them
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# 2. Process
 
-## Build
+## 2.1. Redesign
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+I noticed a number of accessibility issues on the website:
 
-## Running unit tests
+1. A bunch of unsufficient contrasts, for example the buttons:
+   [Buttons](https://i.postimg.cc/8z3PhXR8/Screenshot-2022-11-11-at-08-16-35.png)
+2. Some weirdly aligned elements like on the mobile header:
+   [Header](https://i.postimg.cc/GpcT55B4/Screenshot-2022-11-11-at-08-12-32.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
