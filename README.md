@@ -33,7 +33,9 @@ I noticed a number of potential design/user experience concerns and accessibilit
 ## Performance issues
 
 I noticed with a brief check that a number of images where really big and costing a lot of bandwidth.
-I set myself on instead turning them into SVGs, which both makes them weightless, and allow users to zoom!
+I set myself on instead turning them into SVGs, which both makes them weightless, and allow users to zoom infinitely!
+
+Please note that I did not use much time doing them and that they can greatly be improved with some love :).
 ![SVG image](https://raw.githubusercontent.com/Gynko/learning-angular-ts/055483f55670b77eede4adbb80925bc60804707c/src/assets/pictures/Portal.svg)
 
 # Base architecture
