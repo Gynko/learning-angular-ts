@@ -27,6 +27,7 @@ I noticed a number of accessibility issues on the website:
 2. Some weirdly aligned elements like on the mobile header, and elements not filling the space satisfyingly. Menu icon should be bigger for accessibility (Here it is 20px wide, should be 48+).
    ![Header](https://i.postimg.cc/GpcT55B4/Screenshot-2022-11-11-at-08-12-32.png)
 3. In terms of user experience, i found that it was hard to have a good overview of all the digital solutions offered by the company. I tried myself for a possible solution where all the solutions are in dropdown menus that users can open and close (which was also a good feature to try to implement in Angular).
+   ![Proposition](https://i.postimg.cc/w6PxGB1h/Screenshot-2022-11-11-at-08-46-44.png)
 
 # Base architecture
 
