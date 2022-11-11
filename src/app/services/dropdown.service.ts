@@ -1,28 +1,22 @@
 import { Injectable } from '@angular/core';
 
-interface IDropdown {
-  id: string;
-  open: boolean;
-}
+/*
+Id is used to know which dropdown is open, which can be used to update the adress bar
+*/
 
 @Injectable({
   providedIn: 'root',
 })
 export class DropdownService {
-  private dropdowns: IDropdown[] = [];
+  private open = false;
 
   constructor() {}
 
-  register(id: string) {
-    this.dropdowns.push({ id, open: false });
-    console.log(this.dropdowns);
-  }
-
   isDropdownOpen() {
-    return true;
+    return this.open;
   }
 
-  toggleModal() {
-    
+  toggleDropdown() {
+    this.open = !this.open;
   }
 }
