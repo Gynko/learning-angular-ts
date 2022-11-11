@@ -19,7 +19,6 @@
 I noticed a number of accessibility issues on the website:
 
 1. A bunch of unsufficient contrasts, for example the buttons:
-   [Buttons](https://i.postimg.cc/8z3PhXR8/Screenshot-2022-11-11-at-08-16-35.png)
+   ![Buttons](https://i.postimg.cc/8z3PhXR8/Screenshot-2022-11-11-at-08-16-35.png)
 2. Some weirdly aligned elements like on the mobile header:
-   [Header](https://i.postimg.cc/GpcT55B4/Screenshot-2022-11-11-at-08-12-32.png)
-
+   ![Header](https://i.postimg.cc/GpcT55B4/Screenshot-2022-11-11-at-08-12-32.png)
