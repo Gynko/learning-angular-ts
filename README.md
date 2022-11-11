@@ -10,6 +10,9 @@
   - [Folders](#folders)
   - [CSS Architecture](#css-architecture)
 - [Case study: the dropdown feature](#case-study-the-dropdown-feature)
+- [Things I learned](#things-i-learned)
+  - [Typescript basics](#typescript-basics)
+  - [Angular](#angular)
 
 # 1. Motivation
 
@@ -65,3 +68,28 @@ It is a great feature to work on, as it includes many tricky aspects: dealing wi
 1. We need to store somewhere whether a dropdown is open or not. Could be a thing if we want to persist it (I don't know yet how that works in Angular), or to include it in the adress bar with Routing (so that a person could send this link to a collaborator).
 2. Multiple dropdowns can be opened at the same time.
 3. The dropdown behaviour of the menu icon has an added specific behaviour: clicking / tapping outside of the dropdown can close it
+
+# Things I learned
+
+## Typescript basics
+
+1. Interfaces
+2. type annotation, type inference, type assertion
+
+## Angular
+
+1. Expressions
+2. Property binding
+3. Event binding
+4. Input aliases
+5. Emiting events
+6. Content projection
+7. Lifecycle functions
+8. Scoped CSS
+9. Pipes
+10. Directives
+11. Feature modules
+12. Exporting components
+13. Reusable components
+14. Multi slot content projection
+15. Services / dependency injection, Services injection
