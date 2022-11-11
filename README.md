@@ -5,6 +5,7 @@
 - [1. Motivation](#1-motivation)
 - [2. Process](#2-process)
   - [2.1. Redesign](#21-redesign)
+  - [Performance issues](#performance-issues)
 - [Base architecture](#base-architecture)
   - [Folders](#folders)
   - [CSS Architecture](#css-architecture)
@@ -20,7 +21,7 @@
 
 ## 2.1. Redesign
 
-I noticed a number of accessibility issues on the website:
+I noticed a number of potential design/user experience concerns and accessibility issues on the website:
 
 1. A bunch of unsufficient contrasts, for example the buttons:
    ![Buttons](https://i.postimg.cc/8z3PhXR8/Screenshot-2022-11-11-at-08-16-35.png)
@@ -28,6 +29,12 @@ I noticed a number of accessibility issues on the website:
    ![Header](https://i.postimg.cc/GpcT55B4/Screenshot-2022-11-11-at-08-12-32.png)
 3. In terms of user experience, i found that it was hard to have a good overview of all the digital solutions offered by the company. I tried myself for a possible solution where all the solutions are in dropdown menus that users can open and close (which was also a good feature to try to implement in Angular).
    ![Proposition](https://i.postimg.cc/w6PxGB1h/Screenshot-2022-11-11-at-08-46-44.png)
+
+## Performance issues
+
+I noticed with a brief check that a number of images where really big and costing a lot of bandwidth.
+I set myself on instead turning them into SVGs, which both makes them weightless, and allow users to zoom!
+![SVG image](https://raw.githubusercontent.com/Gynko/learning-angular-ts/055483f55670b77eede4adbb80925bc60804707c/src/assets/pictures/Portal.svg)
 
 # Base architecture
 
