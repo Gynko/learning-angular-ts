@@ -19,6 +19,7 @@
 1. Learning Angular and Typescript
 2. Being prepared for an eventual Yes from Adstate
 3. Showing another proof of motivation and proactivity to them
+4. Testing once again how fast I can learn about an entirely new subject. I started on Monday 7th November.
 
 # 2. Process
 
