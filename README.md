@@ -46,7 +46,7 @@ Please note that I did not use much time doing them and that they can greatly be
 
 ## 3.1. Folders
 
-I set myself for a structure that is a mix of what I am used to in React, and what seem to be the philosophy in Angular:
+I set myself for a structure that is a mix of what I am used to in React, and what seem to be the philosophy in Angular - this structure might be affected by further learning:
 
 1. A Components module with all the base components for the UI: headers, hero text, base dropdown menu
 2. A Shared module with features that can be used by several components: The dropdown shared component could be used by the dropdown menu, and the mobile header menu system.
