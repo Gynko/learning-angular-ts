@@ -63,12 +63,10 @@ I set myself for a structure that is a mix of what I am used to in React, and wh
 
 # 4. Case study: the dropdown feature
 
-Used by both the menu icon of the header and the dropdown elements that present the digital solution.
-It is a great feature to work on, as it includes many tricky aspects: dealing with several components, services / state, conditional rendering and styling.
+It is a great feature to work on, as it includes many tricky aspect, using services.
 
 1. We need to store somewhere whether a dropdown is open or not. Could be a thing if we want to persist it (I don't know yet how that works in Angular), or to include it in the adress bar with Routing (so that a person could send this link to a collaborator).
 2. Multiple dropdowns can be opened at the same time.
-3. The dropdown behaviour of the menu icon has an added specific behaviour: clicking / tapping outside of the dropdown can close it
 
 # 5. Things I learned
 
