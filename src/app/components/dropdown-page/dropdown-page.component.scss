@@ -32,3 +32,18 @@
 .hidden {
   display: none;
 }
+
+.dropdown-container-content:not([hidden]) {
+  animation: slide-up 500ms forwards;
+  animation-timing-function: ease-out;
+}
+
+@keyframes slide-up {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateXs(0%);
+  }
+}
