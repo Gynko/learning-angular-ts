@@ -22,6 +22,7 @@ export class DropdownPageComponent implements OnInit {
 
   closeDropdown($event: Event) {
     this.dropdown.toggleDropdown(this.dropdownID);
-    this.el.nativeElement.scrollIntoView({ behavior: 'smooth' });
+    if (this.dropdown.isDropdownOpen(this.dropdownID) === true)
+      this.el.nativeElement.scrollIntoView({ behavior: 'smooth' });
   }
 }

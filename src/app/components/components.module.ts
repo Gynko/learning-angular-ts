@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { HeroTextComponent } from './hero-text/hero-text.component';
-import { ButtonPrimaryComponent } from './button-primary/button-primary.component';
+import { ButtonPrimaryComponent } from './buttons/buttons.component';
 import { DropdownPageComponent } from './dropdown-page/dropdown-page.component';
 import { SharedModule } from '../shared/shared.module';
 

@@ -1,9 +1,9 @@
 import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-button-primary',
-  templateUrl: './button-primary.component.html',
-  styleUrls: ['./button-primary.component.scss'],
+  selector: 'app-buttons',
+  templateUrl: './buttons.component.html',
+  styleUrls: ['./buttons.component.scss'],
 })
 export class ButtonPrimaryComponent implements OnInit {
   @Input() buttonType: string = '';
@@ -17,6 +17,5 @@ export class ButtonPrimaryComponent implements OnInit {
   ngOnInit(): void {
     this.primary = this.buttonType === 'primary';
     this.secondary = this.buttonType === 'secondary';
-    console.log(this.buttonType, this.primary, this.secondary);
   }
 }
