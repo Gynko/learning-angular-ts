@@ -34,9 +34,9 @@ I set myself for a structure that is a mix of what I am used to in React, and wh
 
 ## 2.2. CSS Architecture
 
-1. A global style + CSS resets file: styles.scss
-2. A global font file: fonts.scss
-3. A global variables file: variables.scss
+1. A `global style` + `CSS resets` file: styles.scss
+2. A `global font` file: fonts.scss
+3. A `global variables` file: variables.scss
 4. Rest of the styles are made by components, which are scoped in Angular
 
 # 3. Case studies
