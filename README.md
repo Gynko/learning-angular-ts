@@ -9,7 +9,9 @@
 - [3. Base architecture](#3-base-architecture)
   - [3.1. Folders](#31-folders)
   - [3.2. CSS Architecture](#32-css-architecture)
-- [4. Case study: the dropdown feature](#4-case-study-the-dropdown-feature)
+- [4. Case studies](#4-case-studies)
+  - [Dropdown menu](#dropdown-menu)
+  - [Custom buttons](#custom-buttons)
 - [5. Things I learned](#5-things-i-learned)
   - [5.1. Typescript basics](#51-typescript-basics)
   - [5.2. Angular](#52-angular)
@@ -61,12 +63,18 @@ I set myself for a structure that is a mix of what I am used to in React, and wh
 3. A global variables file: variables.scss
 4. Rest of the styles are made by components, which are scoped in Angular
 
-# 4. Case study: the dropdown feature
+# 4. Case studies
+
+## Dropdown menu
 
 It is a great feature to work on, as it includes many tricky aspect, using services.
 
 1. We need to store somewhere whether a dropdown is open or not. Could be a thing if we want to persist it (I don't know yet how that works in Angular), or to include it in the adress bar with Routing (so that a person could send this link to a collaborator).
 2. Multiple dropdowns can be opened at the same time.
+
+## Custom buttons
+
+I created a buttons component that can accept an input "primary", "secondary", which changes the styling of the button.
 
 # 5. Things I learned
 
