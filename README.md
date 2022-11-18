@@ -75,7 +75,7 @@ It is a great feature to work on, as it includes many tricky aspect, using servi
 ## Custom buttons
 
 I created a buttons component that can accept an input "primary", "secondary", which changes the styling of the button.
-![buttons](https://i.ibb.co/VQFfwDG/Screenshot-2022-11-18-at-10-39-29.**png**)
+![buttons](https://i.ibb.co/VQFfwDG/Screenshot-2022-11-18-at-10-39-29.png)
 
 # 5. Things I learned
 
