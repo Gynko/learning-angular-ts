@@ -30,6 +30,5 @@ export class DropdownService {
   toggleDropdown(id: string) {
     const dropdown = this.dropdowns.find((element) => element.id === id);
     if (dropdown) dropdown.open = !dropdown.open;
-    //this.open = !this.open;
   }
 }

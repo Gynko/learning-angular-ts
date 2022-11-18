@@ -14,6 +14,11 @@ import { SharedModule } from '../shared/shared.module';
     DropdownPageComponent,
   ],
   imports: [CommonModule, SharedModule],
-  exports: [HeaderComponent, HeroTextComponent, DropdownPageComponent],
+  exports: [
+    HeaderComponent,
+    HeroTextComponent,
+    DropdownPageComponent,
+    ButtonPrimaryComponent,
+  ],
 })
 export class ComponentsModule {}

@@ -1,0 +1,25 @@
+@import "../../../variables.scss";
+@import "../../../fonts.scss";
+
+.button {
+  border: none;
+  font-family: $font-text-bold;
+}
+
+.primary {
+  color: white;
+  background-color: $button-bgcolor-primary;
+  font-size: 1.5rem;
+  border-radius: 6px;
+  width: 15rem;
+  padding: 1rem 0;
+}
+
+.secondary {
+  background-color: $button-bgcolor-secondary;
+  color: $button-textcolor-secondary;
+  font-size: 1rem;
+  padding: 1rem 3rem;
+  border-radius: 6px;
+  width: 15rem;
+}

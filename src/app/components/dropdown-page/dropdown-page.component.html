@@ -1,6 +1,6 @@
-<div class="dropdown-container">
+<div id="{{ dropdownID }}" #hello ngModel class="dropdown-container">
   <div class="dropdown-title-container">
-    <h2 class="dropdown-title" (click)="closeDropdown()">
+    <h2 class="dropdown-title" (click)="closeDropdown($event)">
       {{ dropdownTitle }}
     </h2>
   </div>
