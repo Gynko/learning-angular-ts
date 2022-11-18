@@ -47,6 +47,7 @@ It is a great feature to work on, as it includes many tricky aspect, using servi
 
 1. We need to store somewhere whether a dropdown is open or not. Could be a thing if we want to persist it (I don't know yet how that works in Angular), or to include it in the adress bar with Routing (so that a person could send this link to a collaborator).
 2. Multiple dropdowns can be opened at the same time.
+3. Adding a scroll function that makes the page scroll to the top of the page.
 
 ## 3.2. Custom buttons
 
