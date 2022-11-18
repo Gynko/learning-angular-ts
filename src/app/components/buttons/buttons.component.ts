@@ -11,11 +11,13 @@ export class ButtonPrimaryComponent implements OnInit {
 
   primary = false;
   secondary = false;
+  tertiary = false;
 
   constructor() {}
 
   ngOnInit(): void {
     this.primary = this.buttonType === 'primary';
     this.secondary = this.buttonType === 'secondary';
+    this.tertiary = this.buttonType === 'tertiary';
   }
 }
